@@ -1,3 +1,11 @@
+/*
+GitHub Push:
+
+git remote add origin https://github.com/alexsjcho/console-resume-lab.git
+git push -u origin master
+
+*/
+
 //Function Display Position
 const positionTitle = "Me and My Role:";
     console.log(positionTitle);
@@ -8,7 +16,7 @@ function displayPosition(name, jobTitle, description) {
         const description = "Description: Build using full-stack Javascript technologies";
         return name + jobTitle + description;
     }
-    console.log("Name:"+"Alex Cho".toUpperCase());
+    // console.log("Name:"+"Alex Cho".toUpperCase());
 }
 console.log(displayPosition());
 
